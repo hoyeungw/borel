@@ -1,0 +1,43 @@
+{
+  "name": "borel",
+  "version": "0.0.1",
+  "description": "A light and simple math library",
+  "main": "dist/index.js",
+  "scripts": {
+    "build-rollup": "rollup -c",
+    "prepare": "npm run build-rollup",
+    "gulp-uglify": "gulp script",
+    "publish": "npm publish",
+    "test": "node test/test-main.js -r babel-register"
+  },
+  "dependencies": {
+    "veho": "^0.0.2"
+  },
+  "devDependencies": {
+    "rollup": "^1.3.0",
+    "rollup-plugin-terser": "^4.0.4",
+    "gulp": "^4.0.0",
+    "gulp-terser": "^1.1.7",
+    "@babel/core": "^7.3.4",
+    "@babel/register": "^7.0.0",
+    "@babel/preset-env": "^7.3.4",
+    "xbrief": "^0.0.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoyeungw/borel.git"
+  },
+  "keywords": [
+    "insight"
+  ],
+  "author": {
+    "name": "Hoyeung Wong",
+    "email": "hoyeungw@outlook.com",
+    "url": "https://github.com/hoyeungw"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hoyeungw/borel"
+  },
+  "homepage": "https://github.com/hoyeungw/borel#readme"
+}
