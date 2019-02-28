@@ -1,14 +1,15 @@
-## Standard-module
-### A light and simple standard-module
+## Borel - a light and simple misc math function set
+### 
 
 <p align="center">
-  <a href="https://npmcharts.com/compare/veho?minimal=true"><img src="https://img.shields.io/npm/dm/veho.svg" alt="Downloads"></a>
-  <a href="https://www.npmjs.com/package/veho"><img src="https://img.shields.io/npm/v/veho.svg" alt="Version"></a>
-  <a href="https://www.npmjs.com/package/veho"><img src="https://img.shields.io/npm/l/veho.svg" alt="License"></a>
+  <a href="https://npmcharts.com/compare/borel?minimal=true"><img src="https://img.shields.io/npm/dm/borel.svg" alt="Downloads"></a>
+  <a href="https://www.npmjs.com/package/borel"><img src="https://img.shields.io/npm/v/borel.svg" alt="Version"></a>
+  <a href="https://www.npmjs.com/package/borel"><img src="https://img.shields.io/npm/l/borel.svg" alt="License"></a>
 </p>
 
 ## Usage
 
+To be updated...
 
 ## License
 
