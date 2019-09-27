@@ -1,27 +1,38 @@
 {
   "name": "borel",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "A light and simple math library",
-  "main": "dist/index.js",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "browser": "dist/index.umd.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build-rollup": "rollup -c",
     "prepare": "npm run build-rollup",
     "gulp-uglify": "gulp script",
     "publish": "npm publish",
-    "test": "node test/test-main.js -r babel-register"
+    "test": "node test/misc/test-main.js",
+    "test-jest": "jest"
   },
-  "dependencies": {
-    "veho": "^0.0.2"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "rollup": "^1.3.0",
-    "rollup-plugin-terser": "^4.0.4",
-    "gulp": "^4.0.0",
-    "gulp-terser": "^1.1.7",
-    "@babel/core": "^7.3.4",
-    "@babel/register": "^7.0.0",
-    "@babel/preset-env": "^7.3.4",
-    "xbrief": "^0.0.8"
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-proposal-pipeline-operator": "^7.5.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/register": "^7.6.0",
+    "jest": "^24.9.0",
+    "gulp": "^4.0.2",
+    "gulp-terser": "^1.2.0",
+    "rollup": "^1.20.3",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-terser": "^5.1.1",
+    "crostab": "^0.1.20",
+    "elprimero": "0.0.18",
+    "veho": "^0.1.14",
+    "xbrief": "^0.1.32",
+    "funfact": "^0.0.1"
   },
   "repository": {
     "type": "git",
